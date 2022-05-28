@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <script src="https://kit.fontawesome.com/0f60051df1.js" crossorigin="anonymous"></script>
+    <title>Sachin Paithane Portfolio</title>
+<!--FavIcon code-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+</head>
+<body>
+    <nav class="sticky-top nav-bar">
+        <div class="container">
+            <div class="row navbar">
+                <div class="col-sm-4 col-5 navbarlogo">
+                    <div class="profile-img">
+                        <img src="img/img.png" class="rounded-circle" alt="">
+                    </div>
+                    <a href="home.html">
+                        <div class="profile-name">
+                            <h3>Sachin Paithane</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-7 col-5 navbarfield">
+                    <ul class="ul">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li id="portfoliotab"><a href="#">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div> 
+                <div class="col-sm-1 col-2 navbarthemebtn ">
+                    <i class="fa-solid fa-bars float-end" onclick="hamburger()"></i>
+                </div>
+            </div>
+        </div>
+        </nav>
+        <div class="portfolio-body" onclick="menuclose()">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 portfolio-heading">
+                        <h2>Portfolio</h2>
+                    </div>
+                </div>
+                <div class="portfolio-subbody">
+                    <div class="row">
+                        <div class="col-md-6 portfolio-skills">
+                            <div class="row">
+                                <div class="col-12 portfolio-skills-heading">
+                                    <h3>Skills</h3>
+                                </div>
+                            </div>
+                            <div class="row portfolio-skill-outer">
+                                <div class="col-3">
+                                    <span class="portfolio-skill">HTML</span>
+                                </div>
+                                <div class="col-9">
+                                    <div class="outer-progres">
+                                        <div class="inner-progres progres1">
+                                            95%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row portfolio-skill-outer">
+                                <div class="col-3">
+                                    <span class="portfolio-skill">CSS</span>
+                                </div>
+                                <div class="col-9">
+                                    <div class="outer-progres">
+                                        <div class="inner-progres progres2">
+                                            90%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row portfolio-skill-outer">
+                                <div class="col-3">
+                                    <span class="portfolio-skill">Bootstrap</span>
+                                </div>
+                                <div class="col-9">
+                                    <div class="outer-progres">
+                                        <div class="inner-progres progres4">
+                                            90%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row portfolio-skill-outer">
+                                <div class="col-3">
+                                    <span class="portfolio-skill">SASS</span>
+                                </div>
+                                <div class="col-9">
+                                    <div class="outer-progres">
+                                        <div class="inner-progres progres5">
+                                            90%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row portfolio-skill-outer">
+                                <div class="col-3">
+                                    <span class="portfolio-skill">JavaScript</span>
+                                </div>
+                                <div class="col-9">
+                                    <div class="outer-progres">
+                                        <div class="inner-progres progres3">
+                                            85%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row portfolio-skill-outer">
+                                <div class="col-3">
+                                    <span class="portfolio-skill">C++</span>
+                                </div>
+                                <div class="col-9">
+                                    <div class="outer-progres">
+                                        <div class="inner-progres progres11">
+                                            80%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row portfolio-skill-outer">
+                                <div class="col-3">
+                                    <span class="portfolio-skill">React</span>
+                                </div>
+                                <div class="col-9">
+                                    <div class="outer-progres">
+                                        <div class="inner-progres progres6">
+                                            80%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row portfolio-skill-outer">
+                                <div class="col-3">
+                                    <span class="portfolio-skill">Python</span>
+                                </div>
+                                <div class="col-9">
+                                    <div class="outer-progres">
+                                        <div class="inner-progres progres9">
+                                            75%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row portfolio-skill-outer">
+                                <div class="col-3">
+                                    <span class="portfolio-skill">Node.js</span>
+                                </div>
+                                <div class="col-9">
+                                    <div class="outer-progres">
+                                        <div class="inner-progres progres7">
+                                            70%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row portfolio-skill-outer">
+                                <div class="col-3">
+                                    <span class="portfolio-skill">php</span>
+                                </div>
+                                <div class="col-9">
+                                    <div class="outer-progres">
+                                        <div class="inner-progres progres8">
+                                            60%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row portfolio-skill-outer">
+                                <div class="col-3">
+                                    <span class="portfolio-skill">C</span>
+                                </div>
+                                <div class="col-9">
+                                    <div class="outer-progres">
+                                        <div class="inner-progres progres10">
+                                            60%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row portfolio-skill-outer">
+                                <div class="col-3">
+                                    <span class="portfolio-skill">MySQL</span>
+                                </div>
+                                <div class="col-9">
+                                    <div class="outer-progres">
+                                        <div class="inner-progres progres13">
+                                            60%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row portfolio-skill-outer">
+                                <div class="col-3">
+                                    <span class="portfolio-skill">JAVA</span>
+                                </div>
+                                <div class="col-9">
+                                    <div class="outer-progres">
+                                        <div class="inner-progres progres12">
+                                            50%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row portfolio-skill-outer">
+                                <div class="col-3">
+                                    <span class="portfolio-skill">MongoDB</span>
+                                </div>
+                                <div class="col-9">
+                                    <div class="outer-progres">
+                                        <div class="inner-progres progres14">
+                                            50%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row portfolio-skill-outer">
+                                <div class="col-3">
+                                    <span class="portfolio-skill">Express</span>
+                                </div>
+                                <div class="col-9">
+                                    <div class="outer-progres">
+                                        <div class="inner-progres progres15">
+                                            25%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row portfolio-skill-outer">
+                                <div class="col-3">
+                                    <span class="portfolio-skill">Mongoose</span>
+                                </div>
+                                <div class="col-9">
+                                    <div class="outer-progres">
+                                        <div class="inner-progres progres16">
+                                            20%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 portfolio-tools-cards">
+                            <div class="row portfolio-tools-heading">
+                                <div class="col-12">
+                                    <h3>Tools</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <a href="https://code.visualstudio.com/" target="_blank">
+                                        <div class="portfolio-tools-card">
+                                            <img src="img/vscode.png" alt="">
+                                            <h5>VS Code</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="https://www.eclipse.org/" target="_blank">
+                                        <div class="portfolio-tools-card">
+                                            <img src="img/eclipse.png" alt="">
+                                            <h5>Eclipse</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="https://www.anaconda.com/" target="_blank">
+                                        <div class="portfolio-tools-card">
+                                            <img src="img/anaconda.png" alt="">
+                                            <h5>Anaconda</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <a href="https://www.office.com/" target="_blank">
+                                        <div class="portfolio-tools-card">
+                                            <img src="img/msoffice.png" alt="">
+                                            <h5>MS-Office</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="https://notepad-plus-plus.org/downloads/" target="_blank">
+                                        <div class="portfolio-tools-card">
+                                            <img src="img/Notepad++.png" alt="">
+                                            <h5>Notepad ++</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="https://www.jetbrains.com/pycharm/" target="_blank">
+                                        <div class="portfolio-tools-card">
+                                            <img src="img/pycharm.png" alt="">
+                                            <h5>Pycham</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <a href="https://fontawesome.com/" target="_blank">
+                                        <div class="portfolio-tools-card">
+                                            <img src="img/fontawesome.png" alt="">
+                                            <h5>Font Awesome</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="https://www.apachefriends.org/index.html" target="_blank">
+                                        <div class="portfolio-tools-card">
+                                            <img src="img/xampp.png" alt="">
+                                            <h5>XAMP</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="https://www.codeblocks.org/" target="_blank">
+                                        <div class="portfolio-tools-card">
+                                            <img src="img/codeblock.png" alt="">
+                                            <h5>Code::Blocks</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <a href="https://fontawesome.com/" target="_blank">
+                                        <div class="portfolio-tools-card">
+                                            <img src="img/adobePhotoshop.png" alt="">
+                                            <h5>Adobe Photoshop</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="https://www.apachefriends.org/index.html" target="_blank">
+                                        <div class="portfolio-tools-card">
+                                            <img src="img/mongodabCompass.png" alt="">
+                                            <h5>MongoDB Compass</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="https://www.codeblocks.org/" target="_blank">
+                                        <div class="portfolio-tools-card">
+                                            <img src="img/postman.png" alt="">
+                                            <h5>Postman</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row portfolio-myprojects">
+                    <div class="row">
+                        <div class="col-12 portfolio-mypojects-heading">
+                            <h3>My Projects</h3>
+                        </div>
+                    </div>
+                    <div class="row p-0">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="portfolio-myproject">
+                                <div class="portfolio-myproject-image">
+                                    <img src="img/pro1.JPG" alt="">
+                                </div>
+                                <div class="portfolio-myproject-details">
+                                    <h4>Portfolio Website</h4>
+                                    <p>This is my portfolio website project. I have created this project 
+                                        using HTML, CSS, JavaScript and Bootstrap</p>
+                                    <button><a href="https://spaithane9172.github.io/ASCIP-WebDev-L02-/" target="_blank">View Project</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="portfolio-myproject">
+                                <div class="portfolio-myproject-image">
+                                    <img src="img/pro2.JPG" alt="">
+                                </div>
+                                <div class="portfolio-myproject-details">
+                                    <h4>Template</h4>
+                                    <p>This is a Template Designing project. I have created this Project 
+                                        using HTML, CSS, JavaScript and Bootstrap</p>
+                                    <button><a href="https://spaithane9172.github.io/Template/" target="_blank">View Project</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolio-myproject">
+                                <div class="portfolio-myproject-image">
+                                    <img src="img/pro3.JPG" alt="">
+                                </div>
+                                <div class="portfolio-myproject-details">
+                                    <h4>Single Page Website</h4>
+                                    <p>This is a Single Page website Project. I have created this Project 
+                                        using HTML, CSS and JavaScript</p>
+                                    <button><a href="https://spaithane9172.github.io/ASCIP-WebDev-L01/" target="_blank">View Project</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row portfolio-internships">
+                    <div class="col-12">
+                        <div class="row internship-table-heading">
+                            <div class="col-12">
+                                <h3>My Internships</h3>
+                            </div>  
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <h4 class="h4fs">Internship</h4>
+                            </div>
+                            <div class="col-3">
+                                <h4 class="h4fs">Company Name</h4>
+                            </div>
+                            <div class="col-3">
+                                <h4 class="h4fs">Starting Date</h4>
+                            </div>
+                            <div class="col-3">
+                                <h4 class="h4fs">Ending Date</h4>
+                            </div>
+                        </div>
+                        <div class="row internship-data1">
+                            <div class="col-3">
+                                <span class="spanfs">Web Development</span>
+                            </div>
+                            <div class="col-3">
+                                <span class="spanfs">Always Sahi Solutions Pvt.</span>
+                            </div>
+                            <div class="col-3">
+                                <span class="spanfs">08-Feb-2022</span>
+                            </div>
+                            <div class="col-3">
+                                <span class="spanfs">On Going</span>
+                            </div>
+                        </div>
+                        <div class="row internship-data2">
+                            <div class="col-3">
+                                <span class="spanfs">----</span>
+                            </div>
+                            <div class="col-3">
+                                <span class="spanfs">----</span>
+                            </div>
+                            <div class="col-3">
+                                <span class="spanfs">----</span>
+                            </div>
+                            <div class="col-3">
+                                <span class="spanfs">----</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+</body>
+</html>

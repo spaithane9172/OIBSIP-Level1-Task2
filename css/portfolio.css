@@ -1,0 +1,720 @@
+a,a:hover{
+    color:white;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../img/bg-img.jpg") no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    background-attachment: fixed;
+}
+.portfolio-heading h2{
+    text-align: center;
+    margin-top: 2vh;
+    color: white;
+    text-shadow: 1px 1px 10px skyblue;
+    font-size: 3vw;
+}
+.portfolio-subbody{
+    margin-bottom: 5vh;
+}
+.portfolio-skills{
+    margin-top: 3vh;
+    
+}
+.portfolio-skills .portfolio-skills-heading h3{
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.portfolio-skill-outer{
+    margin-bottom: 1vh;
+}
+.portfolio-skill{
+    color: white;
+    font-size: 0.8rem;
+}
+.outer-progres{
+    width: 25vw;
+    height: 5vh;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    border-radius: 35px;
+}
+.outer-progres:hover{
+    transform: scale(1.03,1.03);
+}
+.inner-progres{
+    height: 100%;
+    border-radius: 35px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5vw;
+}
+.progres1{  
+    background-color: skyblue;
+    width: 23.75vw;
+}
+.progres2{  
+    background-color: skyblue;
+    width: 22.5vw;
+}
+.progres3{  
+    background-color: skyblue;
+    width: 21.85vw;
+}
+.progres4{  
+    background-color: skyblue;
+    width: 22.5vw;
+}
+.progres5{  
+    background-color: skyblue;
+    width: 22.5vw;
+}
+.progres6{  
+    background-color: skyblue;
+    width: 20vw;
+}
+.progres7{  
+    background-color: skyblue;
+    width: 18.75vw;
+}
+.progres8{  
+    background-color: skyblue;
+    width: 15vw;
+}
+.progres9{  
+    background-color: skyblue;
+    width: 18.75vw;
+}
+.progres10{  
+    background-color: skyblue;
+    width: 15vw;
+}
+.progres11{  
+    background-color: skyblue;
+    width: 20vw;
+}
+.progres12{  
+    background-color: skyblue;
+    width: 12.5vw;
+}
+.progres13{  
+    background-color: skyblue;
+    width: 15vw;
+}
+.progres14{  
+    background-color: skyblue;
+    width: 12.5vw;
+}
+.progres15{  
+    background-color: skyblue;
+    width: 6.25vw;
+}
+.progres16{  
+    background-color: skyblue;
+    width: 5vw;
+}
+.portfolio-tools-cards{
+    color: white;
+    margin-top: 3vh;
+}
+.portfolio-tools-cards .col-4{
+    padding: 0;
+    padding:1vh 0.5vw
+}
+.portfolio-tools-heading h3{
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.portfolio-tools-card{
+    border:1px solid black;
+    box-shadow: 1px 1px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    cursor: pointer;
+    transition: transform 0.2s is-in-out;
+}
+.portfolio-tools-card:hover{
+    transform: scale(1.03,1.03);
+}
+.portfolio-tools-card img{
+    width: 3vw;
+    height: 5vh;
+}
+.portfolio-tools-card h5{
+    font-size: 1.4vw;
+    padding: 2vh 1vw;
+    text-align: center;
+}
+
+
+.portfolio-myprojects{
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-mypojects-heading h3{
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.portfolio-myproject{
+    border: 1px solid black;
+    background: white;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    padding: 5px;
+    transition: transform 0.2s is-in-out;
+}
+.portfolio-myproject:hover{
+    transform: scale(1.02,1.02);
+}
+
+.portfolio-myproject-image{
+    width:90% ;
+    height: 30vh;
+}
+.portfolio-myproject img{
+    width: 100%;
+    height: 100%;
+}
+.portfolio-myproject-details{
+    margin-left: 0.4vw;
+    margin-right: 0.4vw; 
+    margin-top: 2.5vh;   
+}
+.portfolio-myproject-details h4{
+    font-size: 2vw;
+}
+.portfolio-myproject-details p{
+    font-size: 1.3vw;
+    text-align: justify;
+    margin: 0;
+}
+
+.portfolio-myproject-details button{
+    font-size: 1vw;
+    border: none;
+    margin: 0;
+    margin-bottom: 0.5vh ;
+    margin-left: 0.4vw;
+    margin-top: 1.5vh;
+    background: linear-gradient(90deg, black, gray,silver);
+    background-size: 400%;
+    border-radius: 35px;
+    width: 10vw;
+    height: 6vh;
+    font-weight: 500;
+}
+.portfolio-myproject-details button:hover{
+    animation: view-project-btn-animation 5s infinite;
+}
+@keyframes view-project-btn-animation{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+.portfolio-myproject-details a{
+    text-decoration: none;
+    color: white;
+}
+
+.portfolio-internships{
+    color: white;
+    margin-bottom: 5vh;
+}
+.portfolio-internships .col-3{
+    margin: 0;
+    padding: 0;
+    padding-left: 0.7vw;
+}
+.internship-table-heading h3{
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.h4fs{
+    font-size: 1.1rem;
+}
+.spanfs{
+    font-size: 0.7rem;
+}
+.internship-data1{
+    margin-bottom: 2vh;
+}
+
+@media(min-width:450px) and (max-width:576px){
+    .portfolio-body{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    /* skills media query */
+    .portfolio-skills{
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px black;
+        margin-top: 3vh;
+        padding: 5vh 7vw;
+    }
+    .portfolio-skills .portfolio-skills-heading h3{
+        font-size: 3vw;
+        margin-bottom: 5vh;
+        
+    }
+    .portfolio-skill-outer{
+        margin-bottom: 1vh;
+    }
+    .portfolio-skill{
+        font-size: 0.8rem;
+    }
+    .outer-progres{
+        width: 50vw;
+    }
+    .outer-progres:hover{
+        transform: scale(1.03,1.03);
+    }
+    .inner-progres{
+        height: 100%;
+        font-size: 0.8rem;
+    }
+    .progres1{  
+        width: 47.5vw;
+    }
+    .progres2{  
+        width: 45vw;
+    }
+    .progres3{  
+        width: 42.5vw;
+    }
+    .progres4{  
+        width: 45vw;
+    }
+    .progres5{  
+        width: 45vw;
+    }
+    .progres6{  
+        width: 40vw;
+    }
+    .progres7{  
+        width: 35vw;
+    }
+    .progres8{  
+        width: 30vw;
+    }
+    .progres9{  
+        width: 37.5vw;
+    }
+    .progres10{  
+        width: 30vw;
+    }
+    .progres11{  
+        width: 40vw;
+    }
+    .progres12{  
+        width: 25vw;
+    }
+    .progres13{  
+        width: 30vw;
+    }
+    .progres14{  
+        width: 25vw;
+    }
+    .progres15{  
+        width: 12.5vw;
+    }
+    .progres16{  
+        width: 10vw;
+    }
+
+/* portfolio tools media query css */
+    .portfolio-tools-heading h3{
+        font-size: 3vw;
+    }
+    .portfolio-tools-card{
+        height: 27vh;
+    }
+    .portfolio-tools-card h5{
+        font-size: 2.5vw;
+    }
+
+
+/* My projects media query css */
+    .portfolio-myprojects{
+        margin-bottom: 5vh;
+    }
+    .portfolio-mypojects-heading h3{
+        font-size: 3vw;
+    }
+    .portfolio-myproject{
+        height: 85vh;
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+    .portfolio-myproject-image{
+        width:80% ;
+        height: 40vh;
+        margin-bottom:3vh ;
+    }
+    .portfolio-myproject-details h4{
+        font-size: 4vw;
+    }
+    .portfolio-myproject-details p{
+        font-size: 3vw;
+    }
+    
+    .portfolio-myproject-details button{
+        font-size: 2vw;
+        width: 20vw;
+        height: 7vh;
+        margin-top: 5vh;
+    }
+/* internship media query code */
+.portfolio-internships{
+    margin-bottom: 5vh;
+}
+
+.portfolio-internships .col-3{
+    padding-left: 1vw;
+}
+.portfolio-internships .col-2{
+    padding-left: 1.2vw;
+}
+.internship-table-heading h3{
+    font-size: 3vw;
+}
+.h4fs{
+    font-size: 3.3vh;
+}
+.spanfs{
+    font-size: 2.5vw;
+}
+.internship-data1{
+    margin-bottom: 2vh;
+}
+}
+
+@media(max-width:450px){
+    .portfolio-body{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .portfolio-heading h2{
+        font-size: 5vw;
+    }
+    /* skills media query */
+    .portfolio-skills{
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px black;
+        margin-top: 3vh;
+        padding: 1vh 7vw;
+    }
+    .portfolio-skills .portfolio-skills-heading h3{
+        font-size: 4vw;
+        margin-bottom: 3vh;
+        
+    }
+    .portfolio-skill-outer{
+        margin-bottom: 1vh;
+    }
+    .portfolio-skill{
+        font-size: 2vh;
+    }
+    .outer-progres{
+        width: 50vw;
+        height: 3vh;
+        font-size: 1vw;
+    }
+    .outer-progres:hover{
+        transform: scale(1.03,1.03);
+    }
+    .inner-progres{
+        height: 100%;
+        font-size: 0.8rem;
+    }
+    .progres1{  
+        width: 47.5vw;
+    }
+    .progres2{  
+        width: 45vw;
+    }
+    .progres3{  
+        width: 42.5vw;
+    }
+    .progres4{  
+        width: 45vw;
+    }
+    .progres5{  
+        width: 45vw;
+    }
+    .progres6{  
+        width: 40vw;
+    }
+    .progres7{  
+        width: 35vw;
+    }
+    .progres8{  
+        width: 30vw;
+    }
+    .progres9{  
+        width: 37.5vw;
+    }
+    .progres10{  
+        width: 30vw;
+    }
+    .progres11{  
+        width: 40vw;
+    }
+    .progres12{  
+        width: 25vw;
+    }
+    .progres13{  
+        width: 30vw;
+    }
+    .progres14{  
+        width: 25vw;
+    }
+    .progres15{  
+        width: 12.5vw;
+    }
+    .progres16{  
+        width: 10vw;
+    }
+/* portfolio tools media query css */
+    .portfolio-tools-heading h3{
+        font-size: 4vw;
+    }
+    .portfolio-tools-card{
+        height: 15vh;
+    }
+    .portfolio-tools-card img{
+        width: 5vw;
+        height: 3vh;
+    }
+    .portfolio-tools-card h5{
+        font-size: 3.5vw;
+        padding: 2vh 1vw;
+    }
+
+/* My projects media query css */
+    .portfolio-myprojects{
+        margin-bottom: 0;
+    }
+    .portfolio-mypojects-heading h3{
+        font-size: 4vw;
+    }
+    .portfolio-myproject{
+        height: 33vh;
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+    .portfolio-myproject-image{
+        width:90% ;
+        height: 15vh;
+        margin-bottom:0;
+    }
+    .portfolio-myproject-details h4{
+        font-size: 4vw;
+    }
+    .portfolio-myproject-details p{
+        font-size: 3vw;
+    }
+    
+    .portfolio-myproject-details button{
+        font-size: 3vw;
+        width: 30vw;
+        height: 3vh;
+        margin-top: 1vh;
+    }
+/* internship media query code */
+.portfolio-internships{
+    margin-bottom: 5vh;
+}
+
+.portfolio-internships .col-3{
+    padding-left: 1vw;
+}
+.portfolio-internships .col-2{
+    padding-left: 1.2vw;
+}
+.internship-table-heading h3{
+    font-size: 4vw;
+}
+.h4fs{
+    font-size: 1.4vh;
+}
+.spanfs{
+    font-size: 2.5vw;
+}
+.internship-data1{
+    margin-bottom: 2vh;
+}
+}
+
+@media(max-width:768px) and (min-width:576px){
+    .portfolio-body{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    /* skills media query */
+    .portfolio-skills{
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px black;
+        margin-top: 3vh;
+        padding: 2vh 3vw;
+    }
+    .portfolio-skills .portfolio-skills-heading h3{
+        font-size: 3vw;
+        margin-bottom: 5vh;
+        
+    }
+    .portfolio-skill-outer{
+        margin-bottom: 1vh;
+    }
+    .portfolio-skill{
+        font-size: 0.8rem;
+    }
+    .outer-progres{
+        width: 50vw;
+    }
+    .outer-progres:hover{
+        transform: scale(1.03,1.03);
+    }
+    .inner-progres{
+        height: 100%;
+        font-size: 0.8rem;
+    }
+    .progres1{  
+        width: 47.5vw;
+    }
+    .progres2{  
+        width: 45vw;
+    }
+    .progres3{  
+        width: 42.5vw;
+    }
+    .progres4{  
+        width: 45vw;
+    }
+    .progres5{  
+        width: 45vw;
+    }
+    .progres6{  
+        width: 40vw;
+    }
+    .progres7{  
+        width: 35vw;
+    }
+    .progres8{  
+        width: 30vw;
+    }
+    .progres9{  
+        width: 37.5vw;
+    }
+    .progres10{  
+        width: 30vw;
+    }
+    .progres11{  
+        width: 40vw;
+    }
+    .progres12{  
+        width: 25vw;
+    }
+
+/* portfolio tools media query css */
+    .portfolio-tools-heading h3{
+        font-size: 3vw;
+    }
+    .portfolio-tools-card{
+        height: 27vh;
+    }
+    .portfolio-tools-card h5{
+        font-size: 2.5vw;
+    }
+
+/* My projects media query css */
+    .portfolio-myprojects{
+        margin-bottom: 5vh;
+    }
+    .portfolio-mypojects-heading h3{
+        font-size: 3vw;
+    }
+    .portfolio-myproject{
+        height: 60vh;
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+    .portfolio-myproject-image{
+        width:75% ;
+        height: 25vh;
+        margin-bottom:1vh ;
+    }
+    .portfolio-myproject-details h4{
+        font-size: 2vw;
+    }
+    .portfolio-myproject-details p{
+        font-size: 1.5vw;
+    }
+    
+    .portfolio-myproject-details button{
+        font-size: 2vw;
+        width: 16vw;
+        height: 7vh;
+        margin-top: 2vh;
+        margin-bottom: 1vh;
+    }
+/* internship media query code */
+.portfolio-internships{
+    margin-bottom: 5vh;
+}
+
+.portfolio-internships .col-3{
+    padding-left: 1vw;
+}
+.portfolio-internships .col-2{
+    padding-left: 1.2vw;
+}
+.internship-table-heading h3{
+    font-size: 3vw;
+}
+.h4fs{
+    font-size: 4vh;
+}
+.spanfs{
+    font-size: 2vw;
+}
+.internship-data1{
+    margin-bottom: 2vh;
+}
+}
+@media(max-width:992px) and (min-width:768px){
+    .outer-progres{
+        width: 25vw;
+    }
+}
